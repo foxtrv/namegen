@@ -1,8 +1,6 @@
 /******************************
-
 Program: Name Generator
 Created: 9/16/15
-
 *******************************/
 
 #include <iostream>
@@ -32,5 +30,5 @@ int main () {
             std::cout << "\n";
     }
     
-    return NULL;
+    return 0;
 }
