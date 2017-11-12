@@ -15,7 +15,6 @@ int main () {
     int length_of_name = 3;
     
     for (int m = 1; m <= 100; m++){
-        
         // Output formatting
         if (m % 10 == 1) 
             std::cout << " | ";
@@ -32,5 +31,6 @@ int main () {
         if (m % 10 == 0) 
             std::cout << "\n";
     }
+    
     return NULL;
 }
